@@ -1,10 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace Web.Api.Infrastructure
 {
-    class DataContext
+    public class DataContext : DbContext
     {
+        public DataContext()
+        {
+
+        }
+
     }
 }
